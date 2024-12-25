@@ -1,0 +1,710 @@
+﻿S7F26
+<L 
+    <A 'PM2\Process\PM2-Strip'>
+    <A 'E200M'>
+    <A '1.0'>
+    <L 
+        <L 
+            <A 'TableRecipeData'>
+            <L 
+                <A 'RecipeVersion,PM2_Process'>
+                <A 'CreatedBy,System'>
+                <A 'CreationTime,2016-05-13T13:56:44'>
+                <A 'LastRevisedBy,LoginUser'>
+                <A 'LastRevisionTime,2023-04-23T16:02:07'>
+                <A 'MonitorTime,30'>
+                <A 'Name1,InSideTemp'>
+                <A 'SetPoint1,250'>
+                <A 'WarningLimit1,5'>
+                <A 'AlarmLimit1,10'>
+                <A 'Name2,OutSideTemp'>
+                <A 'SetPoint2,250'>
+                <A 'WarningLimit2,5'>
+                <A 'AlarmLimit2,10'>
+                <A 'Description,?Empty?'>
+                <A 'IsReadOnly,False'>
+                <A 'PassWord,'>
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?1?'>
+                        <A 'Name,Stable'>
+                        <A 'Loop, '>
+                        <A 'Type,Stable'>
+                        <A 'StepTime,20'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,2500'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Up'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,4000'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?2?'>
+                        <A 'Name,UP'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,20'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,2500'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Up'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,4000'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?3?'>
+                        <A 'Name,UP'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,2000'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Up'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,750'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?4?'>
+                        <A 'Name,Stable'>
+                        <A 'Loop,Loop 3'>
+                        <A 'Type,Stable'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,2000'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Down'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,650'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?5?'>
+                        <A 'Name,Etch'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,2000'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Down'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,1400'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,650'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?6?'>
+                        <A 'Name,Stable'>
+                        <A 'Loop, '>
+                        <A 'Type,Stable'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,1500'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Down'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,200'>
+                                <A 'MfcGas2,3500'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,400'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?7?'>
+                        <A 'Name,Etch'>
+                        <A 'Loop,Loop End'>
+                        <A 'Type,Time'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,1500'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Down'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,1800'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,200'>
+                                <A 'MfcGas2,3500'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,400'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?8?'>
+                        <A 'Name,PP'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,10'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Position'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,0'>
+                            >
+                        >
+                        <L 
+                            <A 'Pin'>
+                            <L 
+                                <A 'Pin.Position,Down'>
+                            >
+                        >
+                        <L 
+                            <A 'MW'>
+                            <L 
+                                <A 'MW.SetPower,0'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,50'>
+                                <A 'APC.AlarmPoint,100'>
+                                <A 'MW.PowerLimitMode,Value'>
+                                <A 'MW.PercentageWarningPower,0'>
+                                <A 'MW.PercentageAlarmPower,0'>
+                                <A 'MW.WarningPower,20'>
+                                <A 'MW.AlarmPower,50'>
+                                <A 'MW.RefLimitMode,Value'>
+                                <A 'MW.PercentageWarningRef,0'>
+                                <A 'MW.PercentageAlarmRef,0'>
+                                <A 'MW.RefWarningPower,10'>
+                                <A 'MW.RefAlarmPower,20'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,50'>
+                                <A 'MfcGas2.Alarm,100'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,50'>
+                                <A 'MfcGas4.Alarm,100'>
+                            >
+                        >
+                    >
+                >
+            >
+        >
+    >
+>.

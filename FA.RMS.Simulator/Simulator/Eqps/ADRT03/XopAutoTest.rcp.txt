@@ -1,0 +1,1078 @@
+S7F26   
+                    <L,4 
+                        <A,18  'XopAutoTest.rcp'>
+                        <A,6  'RTA300'>
+                        <A,6  'V3.1.2'>
+                        <L,58 
+                            <L,2 
+                                <A,6  'STEP 1'>
+                                <L,9 
+                                    <A,11  'ACTION=Idle'>
+                                    <A,6  'TEMP=0'>
+                                    <A,7  'TIME=60'>
+                                    <A,5  'PN2=5'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 2'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 3'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 4'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 5'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 6'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 7'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 8'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'STEP 9'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 10'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 11'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 12'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 13'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 14'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 15'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 16'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 17'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 18'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 19'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 20'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 21'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 22'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 23'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 24'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 25'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 26'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 27'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 28'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 29'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 30'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 31'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 32'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 33'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 34'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 35'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 36'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 37'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 38'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 39'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 40'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 41'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 42'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 43'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 44'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 45'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 46'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 47'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 48'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 49'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'STEP 50'>
+                                <L,9 
+                                    <A,11  'ACTION=Stop'>
+                                    <A,6  'TEMP=0'>
+                                    <A,6  'TIME=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,4  'Ar=0'>
+                                    <A,4  'O2=0'>
+                                    <A,5  'APC=0'>
+                                    <A,4  'NA=0'>
+                                    <A,6  'Pump=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,12  'CONTROL_LOOP'>
+                                <L,20 
+                                    <A,17  'Proportional=0.04'>
+                                    <A,18  'Proportional2=0.04'>
+                                    <A,16  'Integrnal=0.0003'>
+                                    <A,16  'Integral2=0.0004'>
+                                    <A,14  'Derivational=0'>
+                                    <A,9  'Factor1=0'>
+                                    <A,9  'Factor2=0'>
+                                    <A,13  'InputDevice=1'>
+                                    <A,13  'Overshoot=200'>
+                                    <A,12  'Undershoot=0'>
+                                    <A,16  'OverPressure=760'>
+                                    <A,13  'InputObject=0'>
+                                    <A,11  'IntLimit=50'>
+                                    <A,17  'PressureControl=1'>
+                                    <A,4  'PP=3'>
+                                    <A,9  'II=0.0005'>
+                                    <A,15  'RampDownPower=0'>
+                                    <A,9  'APC_P=280'>
+                                    <A,7  'APC_I=3'>
+                                    <A,12  'SmoothTime=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,12  'POWER_WEIGHT'>
+                                <L,34 
+                                    <A,8  'PWS1=300'>
+                                    <A,8  'PWS2=300'>
+                                    <A,7  'PWS3=75'>
+                                    <A,7  'PWS4=60'>
+                                    <A,7  'PWS5=60'>
+                                    <A,8  'PWS6=410'>
+                                    <A,8  'PWS7=450'>
+                                    <A,8  'PWS8=370'>
+                                    <A,8  'PWS9=100'>
+                                    <A,8  'PWS10=10'>
+                                    <A,8  'PWS11=80'>
+                                    <A,9  'PWS12=340'>
+                                    <A,9  'PWS13=100'>
+                                    <A,9  'PWS14=100'>
+                                    <A,9  'PWS15=100'>
+                                    <A,9  'PWS16=100'>
+                                    <A,9  'PWS17=100'>
+                                    <A,8  'PWD1=300'>
+                                    <A,8  'PWD2=300'>
+                                    <A,8  'PWD3=130'>
+                                    <A,8  'PWD4=100'>
+                                    <A,8  'PWD5=100'>
+                                    <A,8  'PWD6=345'>
+                                    <A,8  'PWD7=345'>
+                                    <A,8  'PWD8=330'>
+                                    <A,8  'PWD9=110'>
+                                    <A,8  'PWD10=80'>
+                                    <A,9  'PWD11=120'>
+                                    <A,9  'PWD12=350'>
+                                    <A,9  'PWD13=100'>
+                                    <A,9  'PWD14=100'>
+                                    <A,9  'PWD15=100'>
+                                    <A,9  'PWD16=100'>
+                                    <A,9  'PWD17=100'>
+                                >
+                            >
+                            <L,2 
+                                <A,2  'CT'>
+                                <L,36 
+                                    <A,9  'CTGate1=0'>
+                                    <A,9  'CTGate2=0'>
+                                    <A,9  'CTGate3=0'>
+                                    <A,9  'CTGate4=0'>
+                                    <A,9  'CTGate5=0'>
+                                    <A,9  'CTGate6=0'>
+                                    <A,9  'CTGate7=0'>
+                                    <A,9  'CTGate8=0'>
+                                    <A,9  'CTGate9=0'>
+                                    <A,10  'CTGate10=0'>
+                                    <A,10  'CTGate11=0'>
+                                    <A,10  'CTGate12=0'>
+                                    <A,10  'CTGate13=0'>
+                                    <A,10  'CTGate14=0'>
+                                    <A,10  'CTGate15=0'>
+                                    <A,10  'CTGate16=0'>
+                                    <A,10  'CTGate17=0'>
+                                    <A,9  'CDGate1=0'>
+                                    <A,9  'CDGate2=0'>
+                                    <A,9  'CDGate3=0'>
+                                    <A,9  'CDGate4=0'>
+                                    <A,9  'CDGate5=0'>
+                                    <A,9  'CDGate6=0'>
+                                    <A,9  'CDGate7=0'>
+                                    <A,9  'CDGate8=0'>
+                                    <A,9  'CDGate9=0'>
+                                    <A,10  'CDGate10=0'>
+                                    <A,10  'CDGate11=0'>
+                                    <A,10  'CDGate12=0'>
+                                    <A,10  'CDGate13=0'>
+                                    <A,10  'CDGate14=0'>
+                                    <A,10  'CDGate15=0'>
+                                    <A,10  'CDGate16=0'>
+                                    <A,10  'CDGate17=0'>
+                                    <A,7  'UseCT=0'>
+                                    <A,11  'SaveLogCT=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'Utility'>
+                                <L,3 
+                                    <A,12  'LoginRight=0'>
+                                    <A,15  'FinishedClear=0'>
+                                    <A,11  'TotalSec=60'>
+                                >
+                            >
+                            <L,2 
+                                <A,6  'Motion'>
+                                <L,7 
+                                    <A,11  'PinHeight=0'>
+                                    <A,16  'StartAutoClose=0'>
+                                    <A,13  'EndAutoOpen=0'>
+                                    <A,17  'AutoCloseValve1=0'>
+                                    <A,17  'AutoCloseValve2=0'>
+                                    <A,17  'StartCloseCover=0'>
+                                    <A,14  'EndOpenCover=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,9  'MultiLoop'>
+                                <L,175 
+                                    <A,14  'UseMultiLoop=0'>
+                                    <A,10  'UseLoop0=0'>
+                                    <A,5  'PN0=0'>
+                                    <A,5  'IN0=0'>
+                                    <A,5  'DN0=0'>
+                                    <A,5  'RT0=1'>
+                                    <A,6  'FT0=-1'>
+                                    <A,5  'CN0=0'>
+                                    <A,5  'CV0=0'>
+                                    <A,5  'TC0=0'>
+                                    <A,8  'BankA0=0'>
+                                    <A,8  'BankB0=0'>
+                                    <A,8  'BankC0=0'>
+                                    <A,8  'BankD0=0'>
+                                    <A,8  'BankE0=0'>
+                                    <A,8  'BankF0=0'>
+                                    <A,8  'BankG0=0'>
+                                    <A,8  'BankH0=0'>
+                                    <A,8  'BankJ0=0'>
+                                    <A,8  'BankK0=0'>
+                                    <A,9  'BankMA0=0'>
+                                    <A,9  'BankMB0=0'>
+                                    <A,9  'BankMC0=0'>
+                                    <A,9  'BankMD0=0'>
+                                    <A,9  'BankME0=0'>
+                                    <A,9  'BankMF0=0'>
+                                    <A,9  'BankMG0=0'>
+                                    <A,9  'BankMH0=0'>
+                                    <A,9  'BankMJ0=0'>
+                                    <A,9  'BankMK0=0'>
+                                    <A,10  'UseLoop1=0'>
+                                    <A,5  'PN1=0'>
+                                    <A,5  'IN1=0'>
+                                    <A,5  'DN1=0'>
+                                    <A,5  'RT1=1'>
+                                    <A,6  'FT1=-1'>
+                                    <A,5  'CN1=0'>
+                                    <A,5  'CV1=0'>
+                                    <A,5  'TC1=0'>
+                                    <A,8  'BankA1=0'>
+                                    <A,8  'BankB1=0'>
+                                    <A,8  'BankC1=0'>
+                                    <A,8  'BankD1=0'>
+                                    <A,8  'BankE1=0'>
+                                    <A,8  'BankF1=0'>
+                                    <A,8  'BankG1=0'>
+                                    <A,8  'BankH1=0'>
+                                    <A,8  'BankJ1=0'>
+                                    <A,8  'BankK1=0'>
+                                    <A,9  'BankMA1=0'>
+                                    <A,9  'BankMB1=0'>
+                                    <A,9  'BankMC1=0'>
+                                    <A,9  'BankMD1=0'>
+                                    <A,9  'BankME1=0'>
+                                    <A,9  'BankMF1=0'>
+                                    <A,9  'BankMG1=0'>
+                                    <A,9  'BankMH1=0'>
+                                    <A,9  'BankMJ1=0'>
+                                    <A,9  'BankMK1=0'>
+                                    <A,10  'UseLoop2=0'>
+                                    <A,5  'PN2=0'>
+                                    <A,5  'IN2=0'>
+                                    <A,5  'DN2=0'>
+                                    <A,5  'RT2=1'>
+                                    <A,6  'FT2=-1'>
+                                    <A,5  'CN2=0'>
+                                    <A,5  'CV2=0'>
+                                    <A,5  'TC2=0'>
+                                    <A,8  'BankA2=0'>
+                                    <A,8  'BankB2=0'>
+                                    <A,8  'BankC2=0'>
+                                    <A,8  'BankD2=0'>
+                                    <A,8  'BankE2=0'>
+                                    <A,8  'BankF2=0'>
+                                    <A,8  'BankG2=0'>
+                                    <A,8  'BankH2=0'>
+                                    <A,8  'BankJ2=0'>
+                                    <A,8  'BankK2=0'>
+                                    <A,9  'BankMA2=0'>
+                                    <A,9  'BankMB2=0'>
+                                    <A,9  'BankMC2=0'>
+                                    <A,9  'BankMD2=0'>
+                                    <A,9  'BankME2=0'>
+                                    <A,9  'BankMF2=0'>
+                                    <A,9  'BankMG2=0'>
+                                    <A,9  'BankMH2=0'>
+                                    <A,9  'BankMJ2=0'>
+                                    <A,9  'BankMK2=0'>
+                                    <A,10  'UseLoop3=0'>
+                                    <A,5  'PN3=0'>
+                                    <A,5  'IN3=0'>
+                                    <A,5  'DN3=0'>
+                                    <A,5  'RT3=1'>
+                                    <A,6  'FT3=-1'>
+                                    <A,5  'CN3=0'>
+                                    <A,5  'CV3=0'>
+                                    <A,5  'TC3=0'>
+                                    <A,8  'BankA3=0'>
+                                    <A,8  'BankB3=0'>
+                                    <A,8  'BankC3=0'>
+                                    <A,8  'BankD3=0'>
+                                    <A,8  'BankE3=0'>
+                                    <A,8  'BankF3=0'>
+                                    <A,8  'BankG3=0'>
+                                    <A,8  'BankH3=0'>
+                                    <A,8  'BankJ3=0'>
+                                    <A,8  'BankK3=0'>
+                                    <A,9  'BankMA3=0'>
+                                    <A,9  'BankMB3=0'>
+                                    <A,9  'BankMC3=0'>
+                                    <A,9  'BankMD3=0'>
+                                    <A,9  'BankME3=0'>
+                                    <A,9  'BankMF3=0'>
+                                    <A,9  'BankMG3=0'>
+                                    <A,9  'BankMH3=0'>
+                                    <A,9  'BankMJ3=0'>
+                                    <A,9  'BankMK3=0'>
+                                    <A,10  'UseLoop4=0'>
+                                    <A,5  'PN4=0'>
+                                    <A,5  'IN4=0'>
+                                    <A,5  'DN4=0'>
+                                    <A,5  'RT4=1'>
+                                    <A,6  'FT4=-1'>
+                                    <A,5  'CN4=0'>
+                                    <A,5  'CV4=0'>
+                                    <A,5  'TC4=0'>
+                                    <A,8  'BankA4=0'>
+                                    <A,8  'BankB4=0'>
+                                    <A,8  'BankC4=0'>
+                                    <A,8  'BankD4=0'>
+                                    <A,8  'BankE4=0'>
+                                    <A,8  'BankF4=0'>
+                                    <A,8  'BankG4=0'>
+                                    <A,8  'BankH4=0'>
+                                    <A,8  'BankJ4=0'>
+                                    <A,8  'BankK4=0'>
+                                    <A,9  'BankMA4=0'>
+                                    <A,9  'BankMB4=0'>
+                                    <A,9  'BankMC4=0'>
+                                    <A,9  'BankMD4=0'>
+                                    <A,9  'BankME4=0'>
+                                    <A,9  'BankMF4=0'>
+                                    <A,9  'BankMG4=0'>
+                                    <A,9  'BankMH4=0'>
+                                    <A,9  'BankMJ4=0'>
+                                    <A,9  'BankMK4=0'>
+                                    <A,10  'UseLoop5=0'>
+                                    <A,5  'PN5=0'>
+                                    <A,5  'IN5=0'>
+                                    <A,5  'DN5=0'>
+                                    <A,5  'RT5=1'>
+                                    <A,6  'FT5=-1'>
+                                    <A,5  'CN5=0'>
+                                    <A,5  'CV5=0'>
+                                    <A,5  'TC5=0'>
+                                    <A,8  'BankA5=0'>
+                                    <A,8  'BankB5=0'>
+                                    <A,8  'BankC5=0'>
+                                    <A,8  'BankD5=0'>
+                                    <A,8  'BankE5=0'>
+                                    <A,8  'BankF5=0'>
+                                    <A,8  'BankG5=0'>
+                                    <A,8  'BankH5=0'>
+                                    <A,8  'BankJ5=0'>
+                                    <A,8  'BankK5=0'>
+                                    <A,9  'BankMA5=0'>
+                                    <A,9  'BankMB5=0'>
+                                    <A,9  'BankMC5=0'>
+                                    <A,9  'BankMD5=0'>
+                                    <A,9  'BankME5=0'>
+                                    <A,9  'BankMF5=0'>
+                                    <A,9  'BankMG5=0'>
+                                    <A,9  'BankMH5=0'>
+                                    <A,9  'BankMJ5=0'>
+                                    <A,9  'BankMK5=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,5  'Azbil'>
+                                <L,52 
+                                    <A,8  'UseAz1=0'>
+                                    <A,7  'Az1AT=0'>
+                                    <A,13  'UseAz1Loop0=0'>
+                                    <A,8  'Az1PN0=1'>
+                                    <A,8  'Az1IN0=1'>
+                                    <A,8  'Az1DN0=1'>
+                                    <A,8  'Az1RT0=1'>
+                                    <A,8  'Az1ST0=0'>
+                                    <A,13  'UseAz1Loop1=0'>
+                                    <A,8  'Az1PN1=1'>
+                                    <A,8  'Az1IN1=1'>
+                                    <A,8  'Az1DN1=1'>
+                                    <A,8  'Az1RT1=1'>
+                                    <A,8  'Az1ST1=0'>
+                                    <A,13  'UseAz1Loop2=0'>
+                                    <A,8  'Az1PN2=1'>
+                                    <A,8  'Az1IN2=1'>
+                                    <A,8  'Az1DN2=1'>
+                                    <A,8  'Az1RT2=1'>
+                                    <A,8  'Az1ST2=0'>
+                                    <A,13  'UseAz1Loop3=0'>
+                                    <A,8  'Az1PN3=1'>
+                                    <A,8  'Az1IN3=1'>
+                                    <A,8  'Az1DN3=1'>
+                                    <A,8  'Az1RT3=1'>
+                                    <A,8  'Az1ST3=0'>
+                                    <A,8  'UseAz2=0'>
+                                    <A,7  'Az2AT=0'>
+                                    <A,13  'UseAz2Loop0=0'>
+                                    <A,8  'Az2PN0=1'>
+                                    <A,8  'Az2IN0=1'>
+                                    <A,8  'Az2DN0=1'>
+                                    <A,8  'Az2RT0=1'>
+                                    <A,8  'Az2ST0=0'>
+                                    <A,13  'UseAz2Loop1=0'>
+                                    <A,8  'Az2PN1=1'>
+                                    <A,8  'Az2IN1=1'>
+                                    <A,8  'Az2DN1=1'>
+                                    <A,8  'Az2RT1=1'>
+                                    <A,8  'Az2ST1=0'>
+                                    <A,13  'UseAz2Loop2=0'>
+                                    <A,8  'Az2PN2=1'>
+                                    <A,8  'Az2IN2=1'>
+                                    <A,8  'Az2DN2=1'>
+                                    <A,8  'Az2RT2=1'>
+                                    <A,8  'Az2ST2=0'>
+                                    <A,13  'UseAz2Loop3=0'>
+                                    <A,8  'Az2PN3=1'>
+                                    <A,8  'Az2IN3=1'>
+                                    <A,8  'Az2DN3=1'>
+                                    <A,8  'Az2RT3=1'>
+                                    <A,8  'Az2ST3=0'>
+                                >
+                            >
+                            <L,2 
+                                <A,9  'InterLock'>
+                                <L,3 
+                                    <A,14  'PrepareIndex=0'>
+                                    <A,16  'PrepareGaugeO2=0'>
+                                    <A,16  'PrepareTimeout=0'>
+                                >
+                            >
+                        >
+                    >.

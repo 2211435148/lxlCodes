@@ -1,0 +1,46 @@
+S7F26  W
+                    <L
+                        <A 'CoolStation,cooling_45s'>
+                        <A 'fxP'>
+                        <A '22101'>
+                        <L
+                            <L
+                                <A 'GENERAL'>
+                                <L
+                                    <A '1'>
+                                    <A '1'>
+                                    <A 'test'>
+                                    <A 'Wed May 10 11:26:09 2023'>
+                                    <A 'test'>
+                                    <A 'Thu May 11 09:57:33 2023'>
+                               >
+                           >
+                            <L
+                                <A 'DESCRIPTION'>
+                                <L
+                                    <A ''>
+                               >
+                           >
+                            <L
+                                <A 'MODULE'>
+                                <L
+                                    <A 'TOPCOOLER'>
+                               >
+                           >
+                            <L
+                                <A 'TOPCOOLER_GENERAL_PARAMS'>
+                                <L
+                                    <A '0'>
+                                    <A '4.8E-039'>
+                               >
+                           >
+                            <L
+                                <A 'TOPCOOLER_STEP1_PARAMS'>
+                                <L
+                                    <A 'New Step'>
+                                    <A '45'>
+                                    <A 'Argon'>
+                               >
+                           >
+                       >
+                   >.

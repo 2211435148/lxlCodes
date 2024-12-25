@@ -1,0 +1,34 @@
+S7F26     
+                    <L
+                        <A 'EAP_TEST'>
+                        <A ''>
+                        <A ''>
+                        <L
+                            <L
+                                <U2 '1000'>
+                                <L
+                                    <A 'STEP_1_NAME'>
+                                    <A 'STEP_1_PECIPE_NAME'>
+                                    <A 'STEP_2_NAME'>
+                                    <A 'STEP_2_PECIPE_NAME'>
+                                    <A 'STEP_3_NAME'>
+                                    <A 'STEP_3_PECIPE_NAME'>
+                                    <A 'STEP_4_NAME'>
+                                    <A 'STEP_4_PECIPE_NAME'>
+                                >
+                            >
+                            <L
+                                <U2 '1001'>
+                                <L
+                                    <A '1#ACE'>
+                                    <A 'eap_ACETS'>
+                                    <A '2#IPA'>
+                                    <A 'eap_IPATS'>
+                                    <A '3#QDR'>
+                                    <A 'eap_QDRTS'>
+                                    <A '4#DRY'>
+                                    <A 'eap_IPAdryTS'>
+                                >
+                            >
+                        >
+                    >.

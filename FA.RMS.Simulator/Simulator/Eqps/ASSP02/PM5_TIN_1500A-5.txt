@@ -1,0 +1,17 @@
+S7F26
+                    <L
+                        <A 'PM5_TIN_1500A-5'>
+                        <A 'VceCluster'>
+                        <A '1.0'>
+                        <L
+                            <L
+                                <U2 '129'>
+                                <L
+                                    <A '<Step Position="Aligner" />'>
+                                    <A '<Step Position="Degas" DegasSelection="PM7" PM7ProcessRecipe="PM7\Process\DEGAS" />'>
+                                    <A '<Step Position="PVD" PVDSelection="PM5" PM2ProcessRecipe="" PM3ProcessRecipe="" PM4ProcessRecipe="" PM5ProcessRecipe="PM5\Process\TIN 1500A" PM4CleanRecipe="" PM5CleanRecipe="PM5\Clean\clean" CleanIntervalNoWafer="1" />'>
+                                    <A '<Step Position="Cooler" DelayTime="5" CoolingTime="60" />'>
+                               >
+                           >
+                       >
+                   >.

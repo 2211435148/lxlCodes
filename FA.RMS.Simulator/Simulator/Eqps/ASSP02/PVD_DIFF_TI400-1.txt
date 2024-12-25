@@ -1,0 +1,17 @@
+S7F26
+                    <L
+                        <A 'PVD_DIFF_TI400-1'>
+                        <A 'VceCluster'>
+                        <A '1.0'>
+                        <L
+                            <L
+                                <U2 '129'>
+                                <L
+                                    <A '<Step Position="Aligner" />'>
+                                    <A '<Step Position="Degas" DegasSelection="PM7" PM7ProcessRecipe="PM7\Process\DEGAS" />'>
+                                    <A '<Step Position="PVD" PVDSelection="PM4" PM2ProcessRecipe="" PM3ProcessRecipe="" PM4ProcessRecipe="PM4\Process\TI 400A" PM5ProcessRecipe="" PM4CleanRecipe="" PM5CleanRecipe="" CleanIntervalNoWafer="0" />'>
+                                    <A '<Step Position="Cooler" DelayTime="5" CoolingTime="40" />'>
+                               >
+                           >
+                       >
+                   >.

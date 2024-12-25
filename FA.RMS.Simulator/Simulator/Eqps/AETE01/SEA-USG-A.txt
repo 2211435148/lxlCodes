@@ -1,0 +1,43 @@
+S7F26
+<L 
+    <A 'SEA-USG-A'>
+    <A 'fxP'>
+    <A '22101'>
+    <L 
+        <L 
+            <A 'GENERAL'>
+            <L 
+                <A '1'>
+                <A '1'>
+                <A 'test'>
+                <A 'Sun Jul 30 11:11:48 2023'>
+                <A 'test'>
+                <A 'Sun Jul 30 11:12:54 2023'>
+            >
+        >
+        <L 
+            <A 'DESCRIPTION'>
+            <L 
+                <A ''>
+            >
+        >
+        <L 
+            <A 'WAFER_CONFIG'>
+            <L 
+                <A '1'>
+            >
+        >
+        <L 
+            <A 'WAFER_PATH'>
+            <L 
+                <A 'PM1,SEA-USG-A'>
+            >
+        >
+        <L 
+            <A 'WAFER_CONDITIONING'>
+            <L 
+                <A 'Conditioning,IWC-1'>
+            >
+        >
+    >
+>.

@@ -1,0 +1,594 @@
+S7F26
+<L 
+    <A 'FASHER01-A'>
+    <A 'SINO Plasma 1000Strip'>
+    <A '2.2.4'>
+    <L 
+        <L 
+            <A '1'>
+            <L 
+                <L 
+                    <A 'Position'>
+                    <A 'PM'>
+                >
+                <L 
+                    <A 'PMSelection'>
+                    <A 'PMA'>
+                >
+                <L 
+                    <A 'PMARecipe'>
+                    <A 'FASHER01'>
+                    <L 
+                        <L 
+                            <L 
+                                <A 'CreatedBy'>
+                                <A 'admin'>
+                            >
+                            <L 
+                                <A 'CreationTime'>
+                                <A '2024/03/07 17:43:27'>
+                            >
+                            <L 
+                                <A 'LastRevisedBy'>
+                                <A 'admin'>
+                            >
+                            <L 
+                                <A 'LastRevisionTime'>
+                                <A '2024/08/27 21:12:43'>
+                            >
+                            <L 
+                                <A 'Description'>
+                                <A ''>
+                            >
+                            <L 
+                                <A 'Temperature'>
+                                <A '250'>
+                            >
+                            <L 
+                                <A 'Warning'>
+                                <A '5'>
+                            >
+                            <L 
+                                <A 'Alarm'>
+                                <A '10'>
+                            >
+                            <L 
+                                <A 'Freeze'>
+                                <A 'N'>
+                            >
+                        >
+                        <L 
+                            <L 
+                                <L 
+                                    <A 'StepNo'>
+                                    <A '1'>
+                                >
+                                <L 
+                                    <A 'Overall.Name'>
+                                    <A 'stable1'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEnable'>
+                                    <A 'Yes'>
+                                >
+                                <L 
+                                    <A 'Overall.Time'>
+                                    <A '8'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEndControl'>
+                                    <A 'ByTime'>
+                                >
+                                <L 
+                                    <A 'Overall.Pressure'>
+                                    <A '8'>
+                                >
+                                <L 
+                                    <A 'Overall.LiftUpDown'>
+                                    <A 'Down'>
+                                >
+                                <L 
+                                    <A 'Overall.MinTime'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFPower'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Tune'>
+                                    <A '50'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Load'>
+                                    <A '50'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Tune'>
+                                    <A '50'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Load'>
+                                    <A '50'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas1'>
+                                    <A '5000'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas2'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas3'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas4'>
+                                    <A '100'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'StepNo'>
+                                    <A '2'>
+                                >
+                                <L 
+                                    <A 'Overall.Name'>
+                                    <A 'stable2'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEnable'>
+                                    <A 'Yes'>
+                                >
+                                <L 
+                                    <A 'Overall.Time'>
+                                    <A '10'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEndControl'>
+                                    <A 'ByTime'>
+                                >
+                                <L 
+                                    <A 'Overall.Pressure'>
+                                    <A '0.7'>
+                                >
+                                <L 
+                                    <A 'Overall.LiftUpDown'>
+                                    <A 'Down'>
+                                >
+                                <L 
+                                    <A 'Overall.MinTime'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFPower'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas1'>
+                                    <A '2000'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas2'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas3'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas4'>
+                                    <A '100'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'StepNo'>
+                                    <A '3'>
+                                >
+                                <L 
+                                    <A 'Overall.Name'>
+                                    <A 'Ignition'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEnable'>
+                                    <A 'Yes'>
+                                >
+                                <L 
+                                    <A 'Overall.Time'>
+                                    <A '5'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEndControl'>
+                                    <A 'ByTime'>
+                                >
+                                <L 
+                                    <A 'Overall.Pressure'>
+                                    <A '1.1'>
+                                >
+                                <L 
+                                    <A 'Overall.LiftUpDown'>
+                                    <A 'Down'>
+                                >
+                                <L 
+                                    <A 'Overall.MinTime'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFPower'>
+                                    <A '700'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas1'>
+                                    <A '2000'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas2'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas3'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas4'>
+                                    <A '100'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'StepNo'>
+                                    <A '4'>
+                                >
+                                <L 
+                                    <A 'Overall.Name'>
+                                    <A 'ME'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEnable'>
+                                    <A 'Yes'>
+                                >
+                                <L 
+                                    <A 'Overall.Time'>
+                                    <A '60'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEndControl'>
+                                    <A 'ByTime'>
+                                >
+                                <L 
+                                    <A 'Overall.Pressure'>
+                                    <A '1.1'>
+                                >
+                                <L 
+                                    <A 'Overall.LiftUpDown'>
+                                    <A 'Down'>
+                                >
+                                <L 
+                                    <A 'Overall.MinTime'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFPower'>
+                                    <A '900'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas1'>
+                                    <A '3500'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas2'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas3'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas4'>
+                                    <A '600'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'StepNo'>
+                                    <A '5'>
+                                >
+                                <L 
+                                    <A 'Overall.Name'>
+                                    <A 'Purge'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEnable'>
+                                    <A 'Yes'>
+                                >
+                                <L 
+                                    <A 'Overall.Time'>
+                                    <A '8'>
+                                >
+                                <L 
+                                    <A 'Overall.StepEndControl'>
+                                    <A 'ByTime'>
+                                >
+                                <L 
+                                    <A 'Overall.Pressure'>
+                                    <A '8'>
+                                >
+                                <L 
+                                    <A 'Overall.LiftUpDown'>
+                                    <A 'Down'>
+                                >
+                                <L 
+                                    <A 'Overall.MinTime'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFPower'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch1Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Tune'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'RF.RFMatch2Load'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas1'>
+                                    <A '5000'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas2'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas3'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Flow.Gas4'>
+                                    <A '0'>
+                                >
+                            >
+                        >
+                        <L 
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'RF1'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'RF2'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'Gas1'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'Gas2'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'Gas3'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'Gas4'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '1000'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                            <L 
+                                <L 
+                                    <A 'ControlName'>
+                                    <A 'Pressure'>
+                                >
+                                <L 
+                                    <A 'Max'>
+                                    <A '10'>
+                                >
+                                <L 
+                                    <A 'Min'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Warning'>
+                                    <A '0'>
+                                >
+                                <L 
+                                    <A 'Alarm'>
+                                    <A '0'>
+                                >
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'PMBRecipe'>
+                    <A 'transfer'>
+                >
+            >
+        >
+        <L 
+            <A '2'>
+            <L 
+                <L 
+                    <A 'Position'>
+                    <A 'Cooling'>
+                >
+                <L 
+                    <A 'CoolingSelection'>
+                    <A 'Cooling1,Cooling2'>
+                >
+                <L 
+                    <A 'CoolingTime'>
+                    <A '10'>
+                >
+            >
+        >
+    >
+>.

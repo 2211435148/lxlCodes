@@ -1,0 +1,308 @@
+﻿S7F26  W
+                    <L
+                        <A[23] "DHF60SSPINE30SHF30S-2-B">
+                        <A[7] "S300AST">
+                        <A[15] "1.2024.626.3085">
+                        <L
+                            <L
+                                <A[1] "0">
+                                <L
+                                    <A[13] "ProcessTime=5">
+                                    <A[14] "SpinSpeed=1000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "1">
+                                <L
+                                    <A[14] "ProcessTime=60">
+                                    <A[14] "SpinSpeed=1000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=1">
+                                    <A[18] "ProcessDispense=13">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=0">
+                                    <A[29] "ArmRecipe=ARM1-DHF-MONITOR-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[38] "ArmProfile=60 0 0 0 0 0 0 0 00">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "2">
+                                <L
+                                    <A[14] "ProcessTime=20">
+                                    <A[14] "SpinSpeed=1000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=2">
+                                    <A[18] "ProcessDispense=21">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[24] "ArmRecipe=ARM2-2FLUID-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[37] "ArmProfile=20 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "3">
+                                <L
+                                    <A[14] "ProcessTime=15">
+                                    <A[14] "SpinSpeed=2000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "4">
+                                <L
+                                    <A[13] "ProcessTime=3">
+                                    <A[14] "SpinSpeed=1250">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "5">
+                                <L
+                                    <A[14] "ProcessTime=60">
+                                    <A[14] "SpinSpeed=1250">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=1">
+                                    <A[18] "ProcessDispense=11">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=0">
+                                    <A[32] "ArmRecipe=ARM1-SPIN-E-MOINTOR-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[38] "ArmProfile=60 0 0 0 0 0 0 0 00">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "6">
+                                <L
+                                    <A[14] "ProcessTime=20">
+                                    <A[14] "SpinSpeed=1250">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=2">
+                                    <A[18] "ProcessDispense=21">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[24] "ArmRecipe=ARM2-2FLUID-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[37] "ArmProfile=20 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "7">
+                                <L
+                                    <A[14] "ProcessTime=15">
+                                    <A[14] "SpinSpeed=2000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "8">
+                                <L
+                                    <A[13] "ProcessTime=3">
+                                    <A[14] "SpinSpeed=1000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[1] "9">
+                                <L
+                                    <A[14] "ProcessTime=30">
+                                    <A[14] "SpinSpeed=1000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=1">
+                                    <A[18] "ProcessDispense=12">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=0">
+                                    <A[31] "ArmRecipe=ARM1-DHF49-MOINTOR-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[38] "ArmProfile=60 0 0 0 0 0 0 0 00">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[2] "10">
+                                <L
+                                    <A[14] "ProcessTime=20">
+                                    <A[13] "SpinSpeed=600">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=2">
+                                    <A[18] "ProcessDispense=21">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[24] "ArmRecipe=ARM2-2FLUID-CC">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[37] "ArmProfile=20 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[2] "11">
+                                <L
+                                    <A[14] "ProcessTime=15">
+                                    <A[13] "SpinSpeed=300">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=2">
+                                    <A[18] "ProcessDispense=21">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[18] "ArmRecipe=Arm-2 50">
+                                    <A[15] "ArmStartPos=-50">
+                                    <A[13] "ArmEndPos=-50">
+                                    <A[18] "ArmDispensePos=-50">
+                                    <A[37] "ArmProfile=20 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[2] "12">
+                                <L
+                                    <A[13] "ProcessTime=2">
+                                    <A[14] "SpinSpeed=2000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=3">
+                                    <A[18] "ProcessDispense=31">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[25] "ArmRecipe=ARM3-N2-CC-DEMO">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[37] "ArmProfile=10 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[2] "13">
+                                <L
+                                    <A[13] "ProcessTime=6">
+                                    <A[14] "SpinSpeed=2000">
+                                    <A[15] "SpinAccDec=4000">
+                                    <A[12] "ProcessArm=3">
+                                    <A[18] "ProcessDispense=31">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[28] "ArmRecipe=ARM3-N2-MOINTOR-CE">
+                                    <A[15] "ArmStartPos=-60">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[37] "ArmProfile=10 0 0 0 0 0 0 0 0">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                            <L
+                                <A[2] "14">
+                                <L
+                                    <A[14] "ProcessTime=10">
+                                    <A[14] "SpinSpeed=2000">
+                                    <A[15] "SpinAccDec=2500">
+                                    <A[12] "ProcessArm=0">
+                                    <A[17] "ProcessDispense=0">
+                                    <A[18] "BacksideDispense=0">
+                                    <A[13] "DrainSelect=1">
+                                    <A[10] "ArmRecipe=">
+                                    <A[13] "ArmStartPos=0">
+                                    <A[11] "ArmEndPos=0">
+                                    <A[16] "ArmDispensePos=0">
+                                    <A[11] "ArmProfile=">
+                                    <A[14] "IsDryRun=False">
+                                    <A[12] "SpinCCW=True">
+                                    <A[21] "TopsideDispense=False">
+                               >
+                           >
+                       >
+                   >.

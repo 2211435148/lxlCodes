@@ -1,0 +1,256 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <Version>24.12.25.1</Version>
+    <PackageIcon>ICon.png</PackageIcon>
+    <Authors>FA刘新亮</Authors>
+    <Company>FA</Company>
+    <ApplicationIcon>liuxinliang.ico</ApplicationIcon>
+    <AssemblyVersion>24.11.20.0</AssemblyVersion>
+    <FileVersion>24.12.25.0</FileVersion>
+    <SignAssembly>False</SignAssembly>
+    <Description>FA刘新亮</Description>
+    <Copyright>FA刘新亮</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="MainWindow.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP11\Seq1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP12\Seq2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE02\LXLEQP13\Seq3.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP01\Seq1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP02\Seq2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe1  .txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe1_1_1.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe1_2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Recipe2.txt" />
+    <None Remove="Types\LXLTYPE\LXLEQP03\Seq3.txt" />
+    <None Remove="Types\NotConvert_EQPList.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="MainWindow.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP11\Seq1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP12\Seq2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE02\LXLEQP13\Seq3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP01\Seq1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP02\Seq2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe1  .txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe1_1_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe1_2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Recipe2.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\LXLTYPE\LXLEQP03\Seq3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Types\NotConvert_EQPList.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Costura.Fody" Version="5.7.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FA.Automation.MessageBus\FA.Automation.MessageBus.csproj" />
+    <ProjectReference Include="..\RabbitMQLibary\RabbitMQLibary.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="EAP2RMSFunctionTestWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="liuxinliang.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Update="Types\LXLTYPE02\LXLEQP11\recipeList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Types\LXLTYPE\LXLEQP01\recipeList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Types\LXLTYPE\LXLEQP02\recipeList.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Types\LXLTYPE\ParseVersions\Fa.EAP.Recipe.LXLTEST.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Types\LXLTYPE02\ParseVersions\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,48 @@
+S7F26  W
+                    <L
+                        <A 'TRANSFER'>
+                        <A 'fxP'>
+                        <A '22100'>
+                        <L
+                            <L
+                                <A 'GENERAL'>
+                                <L
+                                    <A '1'>
+                                    <A '7'>
+                                    <A 'test'>
+                                    <A 'Fri Jan 06 10:38:13 2023'>
+                                    <A 'test'>
+                                    <A 'Thu Feb 16 12:36:04 2023'>
+                               >
+                           >
+                            <L
+                                <A 'DESCRIPTION'>
+                                <L
+                                    <A ''>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONFIG'>
+                                <L
+                                    <A '1'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_PATH'>
+                                <L
+                                    <A 'PM4-Ni,TRANSFER'>
+                                    <A 'PM5-SE,TRANSFER'>
+                                    <A 'PM1-Al,TRANSFER'>
+                                    <A 'PM2-Al,TRANSFER'>
+                                    <A 'PM3-Ti,TRANSFER'>
+                                    <A 'PM6-Heat,Cooling_45s_30c'>
+                                    <A 'CoolStation,Cooling'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONDITIONING'>
+                                <L
+                               >
+                           >
+                       >
+                   >.

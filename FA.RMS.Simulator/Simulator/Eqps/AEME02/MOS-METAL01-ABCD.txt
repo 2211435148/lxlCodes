@@ -1,0 +1,64 @@
+﻿S7F26
+<L 
+    <A 'MOS-METAL01-ABCD'>
+    <A 'E200M'>
+    <A '1.0'>
+    <L 
+        <L 
+            <A 'Aitex'>
+            <L 
+                <L 
+                    <A 'TableSequenceData'>
+                    <L 
+                        <A 'CreatedBy,admin'>
+                        <A 'CreationTime,07/28/2023 21:44:44'>
+                        <A 'LastRevisedBy,admin'>
+                        <A 'LastRevisionTime,06/14/2024 14:18:27'>
+                        <A 'Description,'>
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'StepNo,1'>
+                                <A 'Position,Aligner'>
+                                <A 'AlignerAngle,7'>
+                            >
+                        >
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'StepNo,2'>
+                                <A 'Position,Etch'>
+                                <A 'EtchPMSelection,PM3,PM4'>
+                                <A 'EtchRecipeSelection1,PM3\Process\MOS-METAL01'>
+                                <A 'EtchCleanRecipeWaferless1,PM3\Clean\NWC-35C'>
+                                <A 'EtchCleanIntervalWaferless1,1'>
+                                <A 'EtchRecipeSelection2,PM4\Process\MOS-METAL01'>
+                                <A 'EtchCleanRecipeWaferless2,PM4\Clean\NWC-35C'>
+                                <A 'EtchCleanIntervalWaferless2,1'>
+                            >
+                        >
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'StepNo,3'>
+                                <A 'Position,Strip'>
+                                <A 'StripPMSelection,PM2,PM5'>
+                                <A 'StripRecipeSelection1,PM2\Process\PM2-Strip'>
+                                <A 'StripRecipeSelection2,PM5\Process\PM5-Strip'>
+                            >
+                        >
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'StepNo,4'>
+                                <A 'Position,Cooling'>
+                                <A 'SlotSelection,Slot1,Slot2'>
+                                <A 'CoolingTime,180'>
+                            >
+                        >
+                    >
+                >
+            >
+        >
+    >
+>.

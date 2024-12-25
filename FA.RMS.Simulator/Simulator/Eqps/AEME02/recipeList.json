@@ -1,0 +1,37 @@
+[
+  {
+    "RecipeId": "MOS-METAL01-ABCD",
+    "RecipeFileName": "MOS-METAL01-ABCD",
+    "RecipeCategory": "Main"
+  },
+  {
+    "RecipeId": "PM2\\Process\\PM2-Strip",
+    "RecipeFileName": "PM2_Process_PM2-Strip",
+    "RecipeCategory": "Sub"
+  },
+  {
+    "RecipeId": "PM3\\Clean\\NWC-35C",
+    "RecipeFileName": "PM3_Clean_NWC-35C",
+    "RecipeCategory": "Sub"
+  },
+  {
+    "RecipeId": "PM3\\Process\\MOS-METAL01",
+    "RecipeFileName": "PM3_Process_MOS-METAL01",
+    "RecipeCategory": "Sub"
+  },
+  {
+    "RecipeId": "PM4\\Clean\\NWC-35C",
+    "RecipeFileName": "PM4_Clean_NWC-35C",
+    "RecipeCategory": "Sub"
+  },
+  {
+    "RecipeId": "PM4\\Process\\MOS-METAL01",
+    "RecipeFileName": "PM4_Process_MOS-METAL01",
+    "RecipeCategory": "Sub"
+  },
+  {
+    "RecipeId": "PM5\\Process\\PM5-Strip",
+    "RecipeFileName": "PM5_Process_PM5-Strip",
+    "RecipeCategory": "Sub"
+  }
+]

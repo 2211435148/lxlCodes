@@ -1,0 +1,44 @@
+S7F26  W
+                    <L
+                        <A 'DC_RAMP_UP-1'>
+                        <A 'fxP'>
+                        <A '22100'>
+                        <L
+                            <L
+                                <A 'GENERAL'>
+                                <L
+                                    <A '1'>
+                                    <A '1'>
+                                    <A 'test'>
+                                    <A 'Wed May 22 05:38:10 2024'>
+                                    <A 'test'>
+                                    <A 'Wed May 22 05:38:42 2024'>
+                               >
+                           >
+                            <L
+                                <A 'DESCRIPTION'>
+                                <L
+                                    <A ''>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONFIG'>
+                                <L
+                                    <A '1'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_PATH'>
+                                <L
+                                    <A 'PM5-SE,Degas_450c_120s'>
+                                    <A 'PM1-Al,DC_Ramping'>
+                                    <A 'CoolStation,Cooling'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONDITIONING'>
+                                <L
+                               >
+                           >
+                       >
+                   >.

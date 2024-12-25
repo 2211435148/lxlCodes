@@ -1,0 +1,17 @@
+[
+  {
+    "RecipeId": "Sequence\\SDF6AE3ACF3A-AB.pwf.seq",
+    "RecipeCategory": "Main",
+    "RecipeFileName": "Sequence SDF6AE3ACF3A-AB.pwf.seq"
+  },
+  {
+    "RecipeId": "PM\\\\AbortRecip1.rcp",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "PM AbortRecip1.rcp"
+  },
+  {
+    "RecipeId": "PM\\\\SCF3AE3ADF6A.rcp",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "PM SCF3AE3ADF6A.rcp"
+  }
+]

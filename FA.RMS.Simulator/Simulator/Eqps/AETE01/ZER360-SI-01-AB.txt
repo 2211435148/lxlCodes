@@ -1,0 +1,51 @@
+S7F26
+<L 
+    <A 'ZER360-SI-01-AB'>
+    <A 'fxP'>
+    <A '22101'>
+    <L 
+        <L 
+            <A 'GENERAL'>
+            <L 
+                <A '1'>
+                <A '4'>
+                <A 'test'>
+                <A 'Thu Oct 26 13:36:28 2023'>
+                <A 'test'>
+                <A 'Sat Feb 03 06:27:30 2024'>
+            >
+        >
+        <L 
+            <A 'DESCRIPTION'>
+            <L 
+                <A ''>
+            >
+        >
+        <L 
+            <A 'WAFER_CONFIG'>
+            <L 
+                <A '1'>
+            >
+        >
+        <L 
+            <A 'WAFER_PATH'>
+            <L 
+                <A 'PM1&PM3,ZER360-SI-01-AB'>
+            >
+        >
+        <L 
+            <A 'PARALLEL_GROUP'>
+            <L 
+                <A 'PM1&PM3'>
+                <A 'PM1'>
+                <A 'PM3'>
+            >
+        >
+        <L 
+            <A 'WAFER_CONDITIONING'>
+            <L 
+                <A 'Conditioning,IWC-1-AB'>
+            >
+        >
+    >
+>.

@@ -1,0 +1,624 @@
+﻿S7F6  W
+                    <L
+                        <A 'SCT-7k-TEST1-EPD'>
+                        <A '!
+! Lam Research Corporation
+!
+
+Module:    "4500in"
+  Version: "V1.0"
+  Author:  ""
+  Date:    "";
+
+Comment:   "";
+
+Attachment:
+  CleanRecipe:   ""
+  DatalogSetup:   "";
+
+RecipeType:  "Reactor" 
+ Step: 1;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      2.500  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:       10.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:       40.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          2;
+  Param: "Time"                     Setpoint:         30;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          2;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:     2000.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       30.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor" 
+ Step: 2;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        250  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:       10.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:       40.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          2;
+  Param: "Time"                     Setpoint:         30;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          2;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:      750.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       30.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 3;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        250  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:      800.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:       20.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:       10.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:       40.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          3;
+  Param: "Time"                     Setpoint:        100;
+  Param: "Min_EndPt_Time"           Setpoint:         30;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          2;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:         20;
+  Param: "Norm"                     Setpoint:         10;
+  Param: "Trigger"                  Setpoint:         95;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:      750.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       30.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 4;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        250  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:      800.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:       20.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:       10.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:       40.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:         30;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          2;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:      750.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       30.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 5;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        350  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      500.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:          3;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          2;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:       -1.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       50.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 6;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        350  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      500.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:          4;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          0;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:    -2000.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       50.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 7;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:        350  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      1.200  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:      500.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:       12.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:         20;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          0;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          5;
+  Param: "ESC_Volts"                Setpoint:       -1.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       50.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor"  Step: 8;
+
+  Param: "MainCham_Abort_Option"    Setpoint:          0;
+  Param: "Pressure"                 Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Upper_Refl_Max"        Setpoint:        0.0;
+  Param: "GAP"                      Setpoint:      5.300  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "CHF3 100"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "N2 100"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "AR  1000"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "CF4 200"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-04";
+  Param: "O2 20"                    Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-05";
+  Param: "HE 500"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-06";
+  Param: "Gas 07"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-07";
+  Param: "Gas-08"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-09"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Gas-10"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "He-Clamp"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Completion"               Setpoint:          0;
+  Param: "Time"                     Setpoint:          0;
+  Param: "Min_EndPt_Time"           Setpoint:          0;
+  Param: "Min_norm_value"           Setpoint:        0.0;
+  Param: "Max_norm_value"           Setpoint:        0.0;
+  Param: "Channel"                  Setpoint:          0;
+  Param: "Plasma_detect"            Setpoint:        0.0;
+  Param: "Delay"                    Setpoint:          0;
+  Param: "Norm"                     Setpoint:          0;
+  Param: "Trigger"                  Setpoint:          0;
+  Param: "Norm_Value"               Setpoint:       0.00;
+  Param: "Slope_CS"                 Setpoint:       0.00;
+  Param: "Slope_TM"                 Setpoint:       0.00;
+  Param: "RF_Sput"                  Setpoint:          0;
+  Param: "Lofat_Tap"                Setpoint:          0;
+  Param: "ESC_Volts"                Setpoint:        0.0  SoftTol:    20.0%  HardTol:    10.0%;
+  Param: "Lifter_Pos"               Setpoint:          0;
+  Param: "He_Flow_Thres"            Setpoint:       50.0;
+  Param: "He_Flow_Min_Thres"        Setpoint:        0.0;
+  Param: "Lower_Match_Delay"        Setpoint:          0;
+  Param: "Lower_Match_Mode"         Setpoint:          1;
+  Param: "Lower_TuneCap_Learn"      Setpoint:          0;
+  Param: "Lower_LoadCap_Learn"      Setpoint:          0;
+  Param: "Lower_TuneCap_Preset"     Setpoint:      10000;
+  Param: "Lower_LoadCap_Preset"     Setpoint:      10000;
+  Param: "DC_Bias"                  Setpoint:          0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "Coef_Top_A"               Setpoint:       1.00;
+  Param: "Coef_Top_B"               Setpoint:       0.00;
+  Param: "Coef_Top_C"               Setpoint:       0.00;
+  Param: "Coef_Top_D"               Setpoint:       0.00;
+  Param: "Coef_Top_E"               Setpoint:       0.00;
+  Param: "Const_Top"                Setpoint:       0.00;
+  Param: "Coef_Bot_A"               Setpoint:       0.00;
+  Param: "Coef_Bot_B"               Setpoint:       0.00;
+  Param: "Coef_Bot_C"               Setpoint:       0.00;
+  Param: "Coef_Bot_D"               Setpoint:       0.00;
+  Param: "Coef_Bot_E"               Setpoint:       0.00;
+  Param: "Const_Bot"                Setpoint:       1.00;
+  Param: "Power_Top"                Setpoint:       1.00;
+  Param: "Power_Bot"                Setpoint:       1.00;
+  Param: "Power_All"                Setpoint:       1.00;
+  Param: "Multiplier"               Setpoint:       1.00;
+  Param: "Bot_Actuated_Clamp"       Setpoint:          0;
+
+
+RecipeType:  "Reactor_Global"  Step: 1;
+
+  Param: "Wafer_Align_Offset"       Setpoint:        197;
+  Param: "Top_El_Temp"              Setpoint:       40.0  SoftTol:      5.0  HardTol:     10.0;
+  Param: "Bot_El_Temp"              Setpoint:       15.0  SoftTol:      5.0  HardTol:     10.0;
+  Param: "Chiller_Temp"             Setpoint:       20.0  SoftTol:      2.0  HardTol:      5.0;
+  Param: "Abort_Go_To_Step"         Setpoint:          0;
+
+
+RecipeType:  "ISO_Global"  Step: 1;
+
+  Param: "ISO_Temp"                 Setpoint:       45.0  SoftTol:      5.0  HardTol:     10.0;
+  Param: "Iso_Paddle_Temp"          Setpoint:       90.0  SoftTol:      5.0  HardTol:     10.0;
+  Param: "Time_Heat_Iso_Wfr"        Setpoint:         10;
+
+
+RecipeType:  "ISO"  Step: 1;
+
+  Param: "Pressure"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Refl_Max"              Setpoint:        0.0;
+  Param: "NF3 500 "                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Oxygen_Select"            Setpoint:          0;
+  Param: "Paddle_Pos"               Setpoint:          1;
+  Param: "Completion"               Setpoint:          2;
+  Param: "Time"                     Setpoint:         30;
+
+
+RecipeType:  "ISO"  Step: 2;
+
+  Param: "Pressure"                 Setpoint:     1700.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Refl_Max"              Setpoint:        0.0;
+  Param: "NF3 500 "                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:      200.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Oxygen_Select"            Setpoint:          0;
+  Param: "Paddle_Pos"               Setpoint:          1;
+  Param: "Completion"               Setpoint:          2;
+  Param: "Time"                     Setpoint:         30;
+
+
+RecipeType:  "ISO"  Step: 3;
+
+  Param: "Pressure"                 Setpoint:     1700.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:      650.0  SoftTol:    15.0%  HardTol:    15.0%;
+  Param: "RF_Refl_Max"              Setpoint:       15.0;
+  Param: "NF3 500 "                 Setpoint:      300.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:      200.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Oxygen_Select"            Setpoint:          0;
+  Param: "Paddle_Pos"               Setpoint:          1;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:         30;
+
+
+RecipeType:  "ISO"  Step: 4;
+
+  Param: "Pressure"                 Setpoint:      500.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Refl_Max"              Setpoint:        0.0;
+  Param: "NF3 500 "                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:      200.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Oxygen_Select"            Setpoint:          0;
+  Param: "Paddle_Pos"               Setpoint:          0;
+  Param: "Completion"               Setpoint:          1;
+  Param: "Time"                     Setpoint:         10;
+
+
+RecipeType:  "ISO"  Step: 5;
+
+  Param: "Pressure"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF_Refl_Max"              Setpoint:        0.0;
+  Param: "NF3 500 "                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Oxygen_Select"            Setpoint:          0;
+  Param: "Paddle_Pos"               Setpoint:          0;
+  Param: "Completion"               Setpoint:          0;
+  Param: "Time"                     Setpoint:          0;
+
+
+RecipeType:  "ISO_Precharge"  Step: 1;
+
+  Param: "RF_Refl_Max"              Setpoint:        0.0;
+  Param: "Pressure"                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "RF"                       Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%;
+  Param: "NF3 500 "                 Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-01";
+  Param: "HE 1000"                  Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-02";
+  Param: "Gas 12"                   Setpoint:        0.0  SoftTol:    10.0%  HardTol:    10.0%  ParamLabel: "Gas-03";
+  Param: "Completion"               Setpoint:          0;
+  Param: "Time"                     Setpoint:          0;
+
+
+'>
+                   >.

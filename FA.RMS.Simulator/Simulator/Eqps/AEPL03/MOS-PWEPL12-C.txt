@@ -1,0 +1,46 @@
+﻿S7F26
+<L 
+    <A 'MOS-PWEPL12-C'>
+    <A 'E200M'>
+    <A '1.0'>
+    <L 
+        <L 
+            <A 'Aitex'>
+            <L 
+                <L 
+                    <A 'TableSequenceData'>
+                    <L 
+                        <A 'CreatedBy,admin'>
+                        <A 'CreationTime,08/16/2023 09:31:54'>
+                        <A 'LastRevisedBy,admin'>
+                        <A 'LastRevisionTime,04/25/2024 15:02:52'>
+                        <A 'Description,'>
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'Position,Aligner'>
+                                <A 'AlignerAngle,0'>
+                            >
+                        >
+                        <L 
+                            <A 'Step'>
+                            <L 
+                                <A 'Position,PM1'>
+                                <A 'PolyPMSelection,PM3'>
+                                <A 'PolyRecipeSelection1,'>
+                                <A 'PolyCleanRecipeWaferless1,'>
+                                <A 'PolyCleanIntervalWaferless1,1'>
+                                <A 'PolyRecipeSelection3,PM3\Process\MOS-PWEPL12'>
+                                <A 'PolyCleanRecipeWaferless3,PM3\Clean\PE-NWC-45C'>
+                                <A 'PolyCleanIntervalWaferless3,1'>
+                                <A 'PolyRecipeSelection4,'>
+                                <A 'PolyCleanRecipeWaferless4,'>
+                                <A 'PolyCleanIntervalWaferless4,1'>
+                            >
+                        >
+                    >
+                >
+            >
+        >
+    >
+>.

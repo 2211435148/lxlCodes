@@ -1,0 +1,15 @@
+S7F26
+<L
+    <A,20  'PM1&PM3,ZER500-01-AB'>
+    <A,3  'fxP'>
+    <A,5  '22101'>
+    <L
+        <L
+            <A,22  'PARALLEL_GROUP_DETAILS'>
+            <L
+                <A,16  'PM1,ZER500-01-AB'>
+                <A,16  'PM3,ZER500-01-AB'>
+            >
+        >
+    >
+>.

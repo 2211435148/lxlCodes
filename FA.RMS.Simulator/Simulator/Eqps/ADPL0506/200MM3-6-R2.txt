@@ -1,0 +1,143 @@
+S7F26
+<L
+    <A '/-/PRO/DMT/200MM3-6-R2'>
+    <A 'A400duo'>
+    <A '1.61C'>
+    <L
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '700.0'>
+                <A '50.00'>
+                <A '50.00'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '800.0'>
+                <A '50.00'>
+                <A '50.00'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '850.0'>
+                <A '36.70'>
+                <A '36.70'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '900.0'>
+                <A '22.00'>
+                <A '22.00'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '950.0'>
+                <A '14.60'>
+                <A '14.60'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '1000.0'>
+                <A '10.40'>
+                <A '10.40'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '1050.0'>
+                <A '7.00'>
+                <A '7.00'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '1100.0'>
+                <A '3.40'>
+                <A '3.40'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '1150.0'>
+                <A '2.00'>
+                <A '2.00'>
+            >
+        >
+        <L
+            <A 'RAMPRATE_LIMIT'>
+            <L
+                <A '1200.0'>
+                <A '1.00'>
+                <A '1.00'>
+            >
+        >
+        <L
+            <A 'BOATSPEED_LIMIT'>
+            <L
+                <A '500.0'>
+                <A '1000'>
+                <A '1000'>
+            >
+        >
+        <L
+            <A 'BOATSPEED_LIMIT'>
+            <L
+                <A '600.0'>
+                <A '500'>
+                <A '450'>
+            >
+        >
+        <L
+            <A 'BOATSPEED_LIMIT'>
+            <L
+                <A '675.0'>
+                <A '300'>
+                <A '250'>
+            >
+        >
+        <L
+            <A 'BOATSPEED_LIMIT'>
+            <L
+                <A '750.0'>
+                <A '175'>
+                <A '150'>
+            >
+        >
+        <L
+            <A 'BOATSPEED_LIMIT'>
+            <L
+                <A '800.0'>
+                <A '125'>
+                <A '100'>
+            >
+        >
+        <L
+            <A 'LOGGING'>
+            <L
+                <A '2023-10-25: 13:10 R&D on configurator (asm)\x00AGenerated for system defaults\x00A\x00Ad\x00Ad\x00A}\x00A?\x00A2023-10-25: 13:10 R&D on configurator (asm)\x00A\x00A'>
+            >
+        >
+        <L
+            <A 'CHANGELOGSUMMARY'>
+            <L
+                <A '2023-10-25 13:10'>
+                <A 'R&D on configurator (asm)'>
+                <A '2023-10-25 13:10'>
+                <A 'R&D on configurator (asm)'>
+            >
+        >
+    >
+>.

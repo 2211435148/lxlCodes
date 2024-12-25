@@ -1,0 +1,31 @@
+﻿S7F6
+                    <L
+                        <A 'Sequence\SDF6AE3ACF3A-AB.pwf.seq'>
+                        <A '<?xml version="1.0"?>
+<WaferFlow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" AbortRecipe="AbortRecip1" HasBuffer="false" Recipe="SCF3AE3ADF6A" LoadN2="30" UnloadN2="30" BernoulliFlow="100">
+  <UseBuffer>false</UseBuffer>
+  <WAC CleanType="Disable" CleanWafers="0" PreAfterIdleMinute="0" RFMinutes="0" />
+  <OCR Degree="0" IsEnabled="false" />
+  <ModeControl Mode="ProductionMode" Count="0" />
+  <BufferStations>
+    <Name>PTB1</Name>
+    <Name>PTB2</Name>
+  </BufferStations>
+  <CleanBlades>
+    <Name>Blade1</Name>
+  </CleanBlades>
+  <ProcessChambers>
+    <Name>PM1</Name>
+    <Name>PM2</Name>
+  </ProcessChambers>
+  <DirtyBlades>
+    <Name>Blade2</Name>
+  </DirtyBlades>
+  <BladesDirections>Down</BladesDirections>
+  <CoolingStations>
+    <Name>PTB1</Name>
+    <Name>PTB2</Name>
+  </CoolingStations>
+  <CleaningWaferSide>Front</CleaningWaferSide>
+</WaferFlow>'>
+                   >.

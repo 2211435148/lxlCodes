@@ -1,0 +1,37 @@
+S7F26
+<L 
+    <A 'Conditioning,IWC-1'>
+    <A 'fxP'>
+    <A '22101'>
+    <L 
+        <L 
+            <A 'GENERAL'>
+            <L 
+                <A '1'>
+                <A '1'>
+                <A 'test'>
+                <A 'Sat Jul 15 14:59:27 2023'>
+                <A 'test'>
+                <A 'Sat Jul 15 14:59:34 2023'>
+            >
+        >
+        <L 
+            <A 'DESCRIPTION'>
+            <L 
+                <A ''>
+            >
+        >
+        <L 
+            <A 'COND_RECIPE_DATA'>
+            <L 
+                <L 
+                    <A 'PM1'>
+                    <A '3'>
+                    <A '1'>
+                    <A 'PM1,IWC_SiC'>
+                    <A '0'>
+                >
+            >
+        >
+    >
+>.

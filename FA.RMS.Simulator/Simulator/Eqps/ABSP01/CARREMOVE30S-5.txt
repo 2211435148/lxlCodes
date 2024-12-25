@@ -1,0 +1,43 @@
+S7F26
+<L 
+    <A 'CARREMOVE30S-5'>
+    <A 'fxP'>
+    <A '22101'>
+    <L 
+        <L 
+            <A 'GENERAL'>
+            <L 
+                <A '1'>
+                <A '1'>
+                <A 'test'>
+                <A 'Thu May 16 13:42:59 2024'>
+                <A 'test'>
+                <A 'Thu May 16 13:43:16 2024'>
+            >
+        >
+        <L 
+            <A 'DESCRIPTION'>
+            <L 
+                <A ''>
+            >
+        >
+        <L 
+            <A 'WAFER_CONFIG'>
+            <L 
+                <A '1'>
+            >
+        >
+        <L 
+            <A 'WAFER_PATH'>
+            <L 
+                <A 'PM5 - SE,CARREMOVE30S'>
+                <A 'CoolStation,cooling_45s'>
+            >
+        >
+        <L 
+            <A 'WAFER_CONDITIONING'>
+            <L 
+            >
+        >
+    >
+>.

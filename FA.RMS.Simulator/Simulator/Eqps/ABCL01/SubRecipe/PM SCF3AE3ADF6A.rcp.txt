@@ -1,0 +1,57 @@
+﻿S7F6
+                    <L
+                        <A 'PM\\SCF3AE3ADF6A.rcp'>
+                        <A '<?xml version="1.0"?>
+<TableRecipeData RecipeVersion="Standard" RecipeType="RCP" CreatedBy="system" CreationTime="2022-07-23T13:56:44" LastRevisedBy="" LastRevisionTime="2024-01-27T06:46:47" Description="(None)">
+  <Global>
+    <DIWPressure Enable="true" Min="0" Max="800000" SetPoint="X" GroupName="DIWPressure" IsVisible="True" />
+    <SpinETemperature Enable="true" Min="0" Max="65" SetPoint="X" GroupName="SpinETemperature" IsVisible="True" />
+    <SpinEPressure Enable="true" Min="0" Max="800000" SetPoint="X" GroupName="SpinEPressure" IsVisible="True" />
+    <DHFTemperature Enable="true" Min="0" Max="65" SetPoint="X" GroupName="DHFTemperature" IsVisible="True" />
+    <DHFPressure Enable="true" Min="0" Max="800000" SetPoint="X" GroupName="DHFPressure" IsVisible="True" />
+  </Global>
+  <Step StepNo="step1" Name="DHF" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="False" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="DHF" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="On" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="DHF" MediumFlow="1500" MediumReclaim="On" />
+    <Arm SwingMode="Time" SwingValue="60" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step2" Name="DIW" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="DIW" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="Off" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="DIW" MediumFlow="1600" MediumReclaim="Off" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step3" Name="SPINE" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="SpinE" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="On" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="SpinE" MediumFlow="1000" MediumReclaim="On" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step4" Name="DIW" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="DIW" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="Off" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="DIW" MediumFlow="1600" MediumReclaim="Off" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step5" Name="49HF" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="HF" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="Off" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="HF" MediumFlow="100" MediumReclaim="Off" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step6" Name="DIW" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="DIW" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="Off" />
+    <Chuck Chuck.Speed="500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="DIW" MediumFlow="1600" MediumReclaim="Off" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(0 2)" />
+  </Step>
+  <Step StepNo="step7" Name="PN2" Loop=" " EndBy="Motion" EndValue="10">
+    <Preflush Preflush.Enable="false" Preflush.Mode="Job" Preflush.StopTime="60" Preflush.Medium="PN2" Preflush.Monitor.Flow="Off" Preflush.FlowWarning="0" Preflush.FlowAlarm="0" Preflush.Flow="200" Preflush.Reclaim="Off" />
+    <Chuck Chuck.Speed="1500" Chuck.Monitor.Speed="Off" Chuck.SpeedWarning="10" Chuck.SpeedAlarm="20" Chuck.Monitor.N2Flow="Off" Chuck.N2FlowWarning="10" Chuck.N2FlowAlarm="20" Chuck.Direction="CCW" Chuck.N2Flow="250" />
+    <Medium SpinOff="Off" Medium.Monitor.Flow="Off" Medium.FlowWarning="10" Medium.FlowAlarm="20" MediumType="PN2" MediumFlow="30" MediumReclaim="Off" />
+    <Arm SwingMode="Time" SwingValue="30" StartPoint="Center" Profile="(-5 1),(0 5),(71 5),(75 1)" />
+  </Step>
+  <parameters />
+</TableRecipeData>'>
+                   >.

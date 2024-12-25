@@ -1,0 +1,66 @@
+﻿S7F26
+                    <L
+                        <A 'CTD_CYCLE-AB'>
+                        <A 'Ivory150W_TSG150WP_TSG150WP_TSG150WP'>
+                        <A '1.0'>
+                        <L
+                            <L
+                                <U4 '1001'>
+                                <L
+                                    <A 'Position:VCE'>
+                                    <A 'LLSelection:VCEA,VCEB'>
+                               >
+                           >
+                            <L
+                                <U4 '1002'>
+                                <L
+                                    <A 'Position:Aligner'>
+                                    <A 'AlignerSelection:Aligner'>
+                                    <A 'AlignerAngle:0'>
+                               >
+                           >
+                            <L
+                                <U4 '1003'>
+                                <L
+                                    <A 'Position:TSG150WP'>
+                                    <A 'CleanRecipe:'>
+                                    <A 'CleanInterval:1'>
+                                    <A 'IdleSeasonTime:0'>
+                                    <A 'P_TSG150WPSelection:PMB,PMD'>
+                               >
+                           >
+                            <L
+                                <U4 '1004'>
+                                <L
+                                    <A 'Position:Buffer'>
+                                    <A 'BufferSelection:Buffer'>
+                                    <A 'CoolingTime:60'>
+                               >
+                           >
+                            <L
+                                <U4 '1005'>
+                                <L
+                                    <A 'Position:Aligner'>
+                                    <A 'AlignerSelection:Aligner'>
+                                    <A 'AlignerAngle:0'>
+                               >
+                           >
+                            <L
+                                <U4 '1006'>
+                                <L
+                                    <A 'Position:Ivory150W'>
+                                    <A 'CleanRecipe:'>
+                                    <A 'CleanInterval:1'>
+                                    <A 'IdleSeasonTime:0'>
+                                    <A 'P_Ivory150WSelection:PMA'>
+                               >
+                           >
+                            <L
+                                <U4 '1007'>
+                                <L
+                                    <A 'Position:VCE'>
+                                    <A 'LLSelection:VCEA,VCEB'>
+                               >
+                           >
+                       >
+                   >.

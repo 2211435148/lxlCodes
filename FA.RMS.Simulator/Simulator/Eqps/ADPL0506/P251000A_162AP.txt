@@ -1,0 +1,59 @@
+S7F26
+                    <L,4 
+                        <A,25  '/-/PRO/OPR/P251000A_162AP'>
+                        <A,7  'A400duo'>
+                        <A,5  '1.61C'>
+                        <L,4 
+                            <L,2 
+                                <A,13  'OPERATIONTYPE'>
+                                <L,1 
+                                    <A,6  'Normal'>
+                                >
+                            >
+                            <L,2 
+                                <A,13  'OPERATIONSTEP'>
+                                <L,16 
+                                    <A,2  '2-'>
+                                    <A,4  'TRUE'>
+                                    <A,8  'DP4400A1'>
+                                    <A,0  ''>
+                                    <A,4  '4400'>
+                                    <A,7  'DP4000A'>
+                                    <A,11  '200MM3-6-R2'>
+                                    <A,10  '5M-5P-160D'>
+                                    <A,32  'Replace by Dummy, Product at top'>
+                                    <A,0  ''>
+                                    <A,0  ''>
+                                    <A,11  'Transparent'>
+                                    <A,0  ''>
+                                    <A,1  '1'>
+                                    <A,104  'AccumulatorChangeTypeName,LayerThicknessChange,AccumulatorChangePMItemIDs,,AccumulatorValueChange,4400.0'>
+                                    <A,0  ''>
+                                >
+                            >
+                            <L,2 
+                                <A,7  'LOGGING'>
+                                <L,10 
+                                    <A,82  '2024-05-22: 14:11 superusr on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,82  '2024-05-21: 13:31 superusr on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,82  '2024-05-21: 13:30 superusr on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-04-26: 13:20 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-03-30: 13:12 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-03-30: 13:06 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-03-30: 12:54 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-03-30: 12:52 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,76  '2024-03-30: 12:52 PE on system gui (adpl0506)\x00A<unspecified changes>\x00A'>
+                                    <A,110  '2024-03-29: 11:33 superusr on system gui (adpl0506)\x00AOperation code created.\x00A<unspecified changes>\x00A'>
+                                >
+                            >
+                            <L,2 
+                                <A,16  'CHANGELOGSUMMARY'>
+                                <L,4 
+                                    <A,16  '2024-03-29 11:33'>
+                                    <A,33  'superusr on system gui (adpl0506)'>
+                                    <A,16  '2024-05-22 14:11'>
+                                    <A,33  'superusr on system gui (adpl0506)'>
+                                >
+                            >
+                        >
+                    >.

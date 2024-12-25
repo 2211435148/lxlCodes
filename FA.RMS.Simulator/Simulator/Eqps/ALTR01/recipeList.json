@@ -1,0 +1,147 @@
+[
+  {
+    "RecipeId": "A18000CN2A-3/PROCESS/PRODUCT",
+    "RecipeCategory": "Main",
+    "RecipeFileName": "A18000CN2A-3_PROCESS_PRODUCT"
+  },
+  {
+    "RecipeId": "C30000CN2B01/PROCESS/PRODUCT",
+    "RecipeCategory": "Main",
+    "RecipeFileName": "C30000CN2B01_PROCESS_PRODUCT"
+  },
+  {
+    "RecipeId": "100C120S/LHP1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "100C120S_LHP1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "100C90S/LHP1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "100C90S_LHP1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "100C90S/LHP2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "100C90S_LHP2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "110C100S/HCP1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "110C100S_HCP1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "120C30S/LHP5/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "120C30S_LHP5_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "125C60S/ADB1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "125C60S_ADB1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "125C60S/ADB2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "125C60S_ADB2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "23C30S/CPC1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "23C30S_CPC1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "23C30S/CPC2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "23C30S_CPC2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "23C30S/CPC3/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "23C30S_CPC3_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "23C30S/CPC4/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "23C30S_CPC4_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "23C30S/CPC5/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "23C30S_CPC5_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "default/MCA1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "default_MCA1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "default/MCA2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "default_MCA2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "default/OCA1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "default_OCA1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "P-COT5312-1.8UM/COT1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "P-COT5312-1.8UM_COT1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "P-COT5319-3UM/COT2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "P-COT5319-3UM_COT2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-DEV-DOUBLE/DEV1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-DEV-DOUBLE_DEV1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-DEV-DOUBLE/DEV2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-DEV-DOUBLE_DEV2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-DEV-DOUBLE/DEV3/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-DEV-DOUBLE_DEV3_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP1_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP2/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP2_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP3/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP3_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP4/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP4_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP5/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP5_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "T-TP/TP6/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "T-TP_TP6_UNIT_PRODUCT"
+  },
+  {
+    "RecipeId": "TU/TU1/UNIT/PRODUCT",
+    "RecipeCategory": "Sub",
+    "RecipeFileName": "TU_TU1_UNIT_PRODUCT"
+  }
+]

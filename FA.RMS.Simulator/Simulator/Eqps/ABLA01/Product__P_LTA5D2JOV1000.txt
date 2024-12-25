@@ -1,0 +1,94 @@
+S7F26
+<L
+    <A 'Product\P_LTA5D2JOV1000'>
+    <A 'IC 200'>
+    <A 'Ver0.9'>
+    <L
+        <L
+            <A 'RecipeHeader'>
+            <L
+                <A 'Creator'>
+                <A 'admin'>
+           >
+            <L
+                <A 'CreateTime'>
+                <A '2024/01/26 17:30:00'>
+           >
+            <L
+                <A 'Editor'>
+                <A 'admin'>
+           >
+            <L
+                <A 'EditTime'>
+                <A '2024/07/18 10:14:00'>
+           >
+            <L
+                <A 'RecipeName'>
+                <A 'P_LTA5D2JOV1210'>
+           >
+            <L
+                <A 'Description'>
+                <A ''>
+           >
+       >
+        <L
+            <A 'Property'>
+            <L
+                <A 'LotType'>
+                <A '6'>
+           >
+            <L
+                <A 'LaserType'>
+                <A 'UV'>
+           >
+            <L
+                <A 'WaferType'>
+                <A 'standard wafer'>
+           >
+            <L
+                <A 'Start'>
+                <A '10'>
+           >
+            <L
+                <A 'End'>
+                <A '500'>
+           >
+            <L
+                <A 'BottomReserve'>
+                <A '3.86'>
+           >
+            <L
+                <A 'TopReserve'>
+                <A '0'>
+           >
+            <L
+                <A 'BorderReserve'>
+                <A '1'>
+           >
+            <L
+                <A 'ScanArea'>
+                <A 'Full'>
+           >
+            <L
+                <A 'ScanType'>
+                <A 'Serpentine'>
+           >
+            <L
+                <A 'Focus'>
+                <A '3'>
+           >
+            <L
+                <A 'EnergyDensity'>
+                <A '4.02'>
+           >
+            <L
+                <A 'BeamOverlap'>
+                <A '11'>
+           >
+            <L
+                <A 'ScanLineOverlap'>
+                <A '10'>
+           >
+       >
+   >
+>.

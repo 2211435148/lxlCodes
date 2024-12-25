@@ -1,0 +1,12 @@
+[
+    {
+        "RecipeId": "Asd*.|[***/Seq1",
+        "RecipeCategory": "Main",
+        "RecipeFileName": "Seq1"
+    },
+    {
+        "RecipeId": "asf*/Recipe1",
+        "RecipeCategory": "Sub",
+        "RecipeFileName": "Recipe1"
+    }
+]

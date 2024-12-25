@@ -1,0 +1,39 @@
+﻿<Window
+    x:Class="Simitor.MultFunctionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Simitor"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MultFunctionWindow"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <UniformGrid Columns="3" Rows="3">
+        <Button
+            Width="150"
+            Height="50"
+            Click="btnEqp_click"
+            Content="01 配置数据"
+            Visibility="Collapsed" />
+
+        <Button
+            Width="150"
+            Height="50"
+            Click="btnEqp_click"
+            Content="01 模拟机台" />
+
+        <Button
+            Width="150"
+            Height="50"
+            Click="btnEapCallRms_click"
+            Content="02 模拟EAP" />
+
+        <Button
+            Width="150"
+            Height="50"
+            Click="btnPerformance_Click"
+            Content="03 压测"
+            Visibility="Collapsed" />
+    </UniformGrid>
+</Window>

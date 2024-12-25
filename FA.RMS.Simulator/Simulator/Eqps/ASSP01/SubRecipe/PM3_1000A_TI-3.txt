@@ -1,0 +1,44 @@
+S7F26  W
+                    <L
+                        <A 'PM3_1000A_TI-3'>
+                        <A 'fxP'>
+                        <A '22101'>
+                        <L
+                            <L
+                                <A 'GENERAL'>
+                                <L
+                                    <A '1'>
+                                    <A '1'>
+                                    <A 'test'>
+                                    <A 'Wed Aug 23 08:29:43 2023'>
+                                    <A 'test'>
+                                    <A 'Sat Jul 27 16:32:22 2024'>
+                               >
+                           >
+                            <L
+                                <A 'DESCRIPTION'>
+                                <L
+                                    <A ''>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONFIG'>
+                                <L
+                                    <A '1'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_PATH'>
+                                <L
+                                    <A 'PM6 - Heat,Degas_120S'>
+                                    <A 'PM3 - Ti,Ti_1000A'>
+                                    <A 'CoolStation,cooling_45s'>
+                               >
+                           >
+                            <L
+                                <A 'WAFER_CONDITIONING'>
+                                <L
+                               >
+                           >
+                       >
+                   >.

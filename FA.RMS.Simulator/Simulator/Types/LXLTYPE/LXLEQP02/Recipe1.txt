@@ -1,0 +1,25 @@
+﻿<L>
+	<A>Recipe1</A>
+    <L>   
+       <L>
+           <U2>SubRecipe1</U2>
+           <L>
+               <A>Recipe1_1</A>
+           </L>
+       </L>
+       <L>
+           <U2>SubRecipe2</U2>
+           <L>
+       	     <A>Recipe1_2</A>
+           </L>
+       </L>
+       <L>
+           <U2>Param</U2>
+           <L>
+       	     <A>1</A>
+       	     <A>2</A>
+       	     <A>3</A>
+           </L>
+       </L>
+    </L>
+</L>

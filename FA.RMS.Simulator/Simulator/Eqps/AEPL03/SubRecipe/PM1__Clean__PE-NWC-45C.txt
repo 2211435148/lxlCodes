@@ -1,0 +1,1858 @@
+﻿S7F26
+<L 
+    <A 'PM1\Clean\PE-NWC-45C'>
+    <A 'E200M'>
+    <A '1.0'>
+    <L 
+        <L 
+            <A 'TableRecipeData'>
+            <L 
+                <A 'RecipeVersion,PM1_Clean'>
+                <A 'CreatedBy,System'>
+                <A 'CreationTime,2016-05-13T13:56:44'>
+                <A 'LastRevisedBy,LoginUser'>
+                <A 'LastRevisionTime,2024-07-31T09:53:46'>
+                <A 'MonitorTime,10'>
+                <A 'Name1,ChillerTemp'>
+                <A 'SetPoint1,45'>
+                <A 'WarningLimit1,3'>
+                <A 'AlarmLimit1,5'>
+                <A 'ChuckRecipe,PE-chuck NO HV'>
+                <A 'DeChuckRecipe,PE-dechuck-NO HV'>
+                <A 'Description,?Empty?'>
+                <A 'IsReadOnly,False'>
+                <A 'PassWord,'>
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?1?'>
+                        <A 'Name,SF6 STABLE'>
+                        <A 'Loop, '>
+                        <A 'Type,Stable'>
+                        <A 'StepTime,15'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,80'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,0'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,50'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,120'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,50'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?2?'>
+                        <A 'Name,SF6 STABLE'>
+                        <A 'Loop, '>
+                        <A 'Type,EndPoint'>
+                        <A 'StepTime,3'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,80'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,0'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES,SR_poly '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,50'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,120'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,50'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?3?'>
+                        <A 'Name,SF6 STRIKE'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,3'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,80'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,500'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,50'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,120'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,50'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,20'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,20'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?4?'>
+                        <A 'Name,SF6'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,15'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,80'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,800'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,50'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,120'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,50'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,50'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,50'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?5?'>
+                        <A 'Name,O2'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,3'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,15'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,800'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,300'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,0'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?6?'>
+                        <A 'Name,O2'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,40'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,15'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,800'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,300'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,0'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,50'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,50'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?7?'>
+                        <A 'Name,ramp'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,3'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Pressure'>
+                                <A 'APC.SetPosition,0'>
+                                <A 'APC.SetPressure,15'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,400'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,300'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,0'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?8?'>
+                        <A 'Name,purge'>
+                        <A 'Loop, '>
+                        <A 'Type,EndPoint'>
+                        <A 'StepTime,3'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Position'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,10'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,0'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES,ER_poly '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,0'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,200'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?9?'>
+                        <A 'Name,purge'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,30'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Position'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,10'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,0'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,0'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,200'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+                <L 
+                    <A 'Step'>
+                    <L 
+                        <A 'StepNo,?10?'>
+                        <A 'Name,end'>
+                        <A 'Loop, '>
+                        <A 'Type,Time'>
+                        <A 'StepTime,10'>
+                        <L 
+                            <A 'APC'>
+                            <L 
+                                <A 'APC.SetMode,Position'>
+                                <A 'APC.SetPosition,100'>
+                                <A 'APC.SetPressure,30'>
+                            >
+                        >
+                        <L 
+                            <A 'SourceRF'>
+                            <L 
+                                <A 'SourceRF.PowerMode,Forward'>
+                                <A 'SourceRF.SetPower,0'>
+                                <A 'SourceRF.MatchMode,Auto'>
+                                <A 'SourceRF.SetMatchLoad,50'>
+                                <A 'SourceRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'BiasRF'>
+                            <L 
+                                <A 'BiasRF.PowerMode,Forward'>
+                                <A 'BiasRF.SetPower,0'>
+                                <A 'BiasRF.MatchMode,Auto'>
+                                <A 'BiasRF.SetMatchLoad,50'>
+                                <A 'BiasRF.SetMatchTune,50'>
+                            >
+                        >
+                        <L 
+                            <A 'OES'>
+                            <L 
+                                <A 'OES, '>
+                                <A 'OESMinTime,0'>
+                            >
+                        >
+                        <L 
+                            <A 'ESC'>
+                            <L 
+                                <A 'ESC.DeChuckMode,Helium'>
+                                <A 'ESC.PinPosition,Down'>
+                                <A 'ESC.Polarity,0'>
+                                <A 'ESC.HV,0'>
+                                <A 'ESC.BacksideHelium,0'>
+                                <A 'ESC.HeliumLeadError,0'>
+                                <A 'VHeA,false'>
+                                <A 'VHeB,false'>
+                                <A 'VHeC,false'>
+                                <A 'VHeD,false'>
+                            >
+                        >
+                        <L 
+                            <A 'MFC'>
+                            <L 
+                                <A 'MfcGas1,0'>
+                                <A 'MfcGas2,0'>
+                                <A 'MfcGas3,0'>
+                                <A 'MfcGas4,0'>
+                                <A 'MfcGas5,0'>
+                                <A 'MfcGas6,0'>
+                                <A 'MfcGas7,0'>
+                                <A 'MfcGas8,0'>
+                                <A 'MfcGas9,0'>
+                                <A 'MfcGas10,0'>
+                                <A 'MfcGas11,0'>
+                                <A 'MfcGas12,0'>
+                            >
+                        >
+                        <L 
+                            <A 'FTP'>
+                            <L 
+                                <A 'FTP, '>
+                            >
+                        >
+                        <L 
+                            <A 'Limit'>
+                            <L 
+                                <A 'APC.LimitMode,Value'>
+                                <A 'APC.PercentageWarningPoint,0'>
+                                <A 'APC.PercentageAlarmPoint,0'>
+                                <A 'APC.WarningPoint,5'>
+                                <A 'APC.AlarmPoint,10'>
+                                <A 'SourceRF.PowerLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningPower,3'>
+                                <A 'SourceRF.PercentageAlarmPower,5'>
+                                <A 'SourceRF.WarningPower,5'>
+                                <A 'SourceRF.AlarmPower,10'>
+                                <A 'SourceRF.RefLimitMode,Percentage'>
+                                <A 'SourceRF.PercentageWarningRef,3'>
+                                <A 'SourceRF.PercentageAlarmRef,5'>
+                                <A 'SourceRF.WarningRef,5'>
+                                <A 'SourceRF.AlarmRef,10'>
+                                <A 'BiasRF.PowerLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningPower,3'>
+                                <A 'BiasRF.PercentageAlarmPower,5'>
+                                <A 'BiasRF.WarningPower,5'>
+                                <A 'BiasRF.AlarmPower,10'>
+                                <A 'BiasRF.RefLimitMode,Percentage'>
+                                <A 'BiasRF.PercentageWarningRef,3'>
+                                <A 'BiasRF.PercentageAlarmRef,5'>
+                                <A 'BiasRF.WarningRef,5'>
+                                <A 'BiasRF.AlarmRef,10'>
+                                <A 'ESC.PowerLimitMode,Value'>
+                                <A 'ESC.PercentageWarningHVPower,0'>
+                                <A 'ESC.PercentageAlarmHVPower,0'>
+                                <A 'ESC.WarningHVPower,250'>
+                                <A 'ESC.AlarmHVPower,300'>
+                                <A 'He.LimitMode,Value'>
+                                <A 'He.PercentagePressureWarning,0'>
+                                <A 'He.PercentagePressureAlarm,0'>
+                                <A 'He.PressureWarning,1'>
+                                <A 'He.PressureAlarm,2'>
+                                <A 'MfcGas1.LimitMode,Value'>
+                                <A 'MfcGas1.PercentageWarning,0'>
+                                <A 'MfcGas1.PercentageAlarm,0'>
+                                <A 'MfcGas1.Warning,5'>
+                                <A 'MfcGas1.Alarm,10'>
+                                <A 'MfcGas2.LimitMode,Value'>
+                                <A 'MfcGas2.PercentageWarning,0'>
+                                <A 'MfcGas2.PercentageAlarm,0'>
+                                <A 'MfcGas2.Warning,5'>
+                                <A 'MfcGas2.Alarm,10'>
+                                <A 'MfcGas3.LimitMode,Value'>
+                                <A 'MfcGas3.PercentageWarning,0'>
+                                <A 'MfcGas3.PercentageAlarm,0'>
+                                <A 'MfcGas3.Warning,5'>
+                                <A 'MfcGas3.Alarm,10'>
+                                <A 'MfcGas4.LimitMode,Value'>
+                                <A 'MfcGas4.PercentageWarning,0'>
+                                <A 'MfcGas4.PercentageAlarm,0'>
+                                <A 'MfcGas4.Warning,5'>
+                                <A 'MfcGas4.Alarm,10'>
+                                <A 'MfcGas5.LimitMode,Percentage'>
+                                <A 'MfcGas5.PercentageWarning,3'>
+                                <A 'MfcGas5.PercentageAlarm,5'>
+                                <A 'MfcGas5.Warning,5'>
+                                <A 'MfcGas5.Alarm,10'>
+                                <A 'MfcGas6.LimitMode,Percentage'>
+                                <A 'MfcGas6.PercentageWarning,3'>
+                                <A 'MfcGas6.PercentageAlarm,5'>
+                                <A 'MfcGas6.Warning,5'>
+                                <A 'MfcGas6.Alarm,10'>
+                                <A 'MfcGas7.LimitMode,Percentage'>
+                                <A 'MfcGas7.PercentageWarning,3'>
+                                <A 'MfcGas7.PercentageAlarm,5'>
+                                <A 'MfcGas7.Warning,5'>
+                                <A 'MfcGas7.Alarm,10'>
+                                <A 'MfcGas8.LimitMode,Percentage'>
+                                <A 'MfcGas8.PercentageWarning,3'>
+                                <A 'MfcGas8.PercentageAlarm,5'>
+                                <A 'MfcGas8.Warning,5'>
+                                <A 'MfcGas8.Alarm,10'>
+                                <A 'MfcGas9.LimitMode,Percentage'>
+                                <A 'MfcGas9.PercentageWarning,3'>
+                                <A 'MfcGas9.PercentageAlarm,5'>
+                                <A 'MfcGas9.Warning,5'>
+                                <A 'MfcGas9.Alarm,10'>
+                                <A 'MfcGas10.LimitMode,Value'>
+                                <A 'MfcGas10.PercentageWarning,0'>
+                                <A 'MfcGas10.PercentageAlarm,0'>
+                                <A 'MfcGas10.Warning,5'>
+                                <A 'MfcGas10.Alarm,10'>
+                                <A 'MfcGas11.LimitMode,Percentage'>
+                                <A 'MfcGas11.PercentageWarning,3'>
+                                <A 'MfcGas11.PercentageAlarm,5'>
+                                <A 'MfcGas11.Warning,5'>
+                                <A 'MfcGas11.Alarm,10'>
+                                <A 'MfcGas12.LimitMode,Percentage'>
+                                <A 'MfcGas12.PercentageWarning,3'>
+                                <A 'MfcGas12.PercentageAlarm,5'>
+                                <A 'MfcGas12.Warning,5'>
+                                <A 'MfcGas12.Alarm,10'>
+                            >
+                        >
+                    >
+                >
+            >
+        >
+    >
+>.

@@ -1,0 +1,45 @@
+S7F26
+<L 
+    <A 'BE3N00T10TN0A00K-3'>
+    <A 'fxP'>
+    <A '22101'>
+    <L 
+        <L 
+            <A 'GENERAL'>
+            <L 
+                <A '1'>
+                <A '1'>
+                <A 'test'>
+                <A 'Wed Aug 23 15:25:41 2023'>
+                <A 'test'>
+                <A 'Tue Jul 23 21:24:07 2024'>
+            >
+        >
+        <L 
+            <A 'DESCRIPTION'>
+            <L 
+                <A ''>
+            >
+        >
+        <L 
+            <A 'WAFER_CONFIG'>
+            <L 
+                <A '1'>
+            >
+        >
+        <L 
+            <A 'WAFER_PATH'>
+            <L 
+                <A 'PM6 - Heat,Degas_120S'>
+                <A 'PM5 - SE,Low_Bias_Etch'>
+                <A 'PM3 - Ti,Ti_1000A'>
+                <A 'CoolStation,cooling_45s'>
+            >
+        >
+        <L 
+            <A 'WAFER_CONDITIONING'>
+            <L 
+            >
+        >
+    >
+>.
